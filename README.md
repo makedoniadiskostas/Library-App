@@ -12,28 +12,28 @@
 A Laravel 10/11 web application for managing books and categories with authentication, CRUD operations, filtering, pagination, and ownership-based authorization.
 
 ## 🔧 Features
--User Authentication (Register / Login / Logout)
--CRUD operations for Books
--CRUD operations for Categories
--Many-to-Many relationship between Books and Categories
--Search, category filtering, and sorting
--Pagination (5 items per page)
--Ownership Policy (users can edit/delete only their own books)
--Form validation and flash messages
+-User Authentication (Register / Login / Logout) <br>
+-CRUD operations for Books<br>
+-CRUD operations for Categories<br>
+-Many-to-Many relationship between Books and Categories<br>
+-Search, category filtering, and sorting<br>
+-Pagination (5 items per page)<br>
+-Ownership Policy (users can edit/delete only their own books)<br>
+-Form validation and flash messages<br>
 
 ## 🛠 Tech Stack
--Laravel 10/11
--PHP 8.2+
--MySQL 8
--Blade Templates
--Eloquent ORM
+-Laravel 10/11<br>
+-PHP 8.2+<br>
+-MySQL 8<br>
+-Blade Templates<br>
+-Eloquent ORM<br>
 
 ## 📚 Database Structure
--Users → Books (1:N)
--Books ↔ Categories (N:N) via pivot table
+-Users → Books (1:N)<br>
+-Books ↔ Categories (N:N) via pivot table<br>
 
-Thank you for checking out this project.
-Feedback and suggestions are always welcome.
+Thank you for checking out this project.<br>
+Feedback and suggestions are always welcome.<br>
 
 
 ## About Laravel
