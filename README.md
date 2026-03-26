@@ -35,18 +35,40 @@ A Laravel 10/11 web application for managing books and categories with authentic
 Thank you for checking out this project.<br>
 Feedback and suggestions are always welcome.<br>
 
-## 🚀 Installation
+## ⚙️ Installation Guide
 
-git clone https://github.com/makedoniadiskostas/Library-App.git<br>
-cd Library-App<br>
-composer install<br>
-cp .env.example .env<br>
-php artisan key:generate<br>
+Follow these steps to run the project locally:
 
-# setup database in .env
+1. Clone the repository
+   git clone https://github.com/<your-username>/first-app-fixing.git
+   cd first-app-fixing
 
-php artisan migrate --seed<br>
-php artisan serve<br>
+2. Install dependencies
+   composer install
+
+3. Copy environment file
+   cp .env.example .env
+
+4. Configure your database (.env file)
+   DB_DATABASE=your_db_name
+   DB_USERNAME=your_username
+   DB_PASSWORD=your_password
+
+5. Generate application key
+   php artisan key:generate
+
+6. Run migrations
+   php artisan migrate
+
+   (Optional)
+   php artisan db:seed
+
+7. Start the server
+   php artisan serve
+
+8. Open in browser
+   http://127.0.0.1:8000
+
 
 ## About Laravel
 
