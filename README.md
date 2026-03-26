@@ -32,9 +32,6 @@ A Laravel 10/11 web application for managing books and categories with authentic
 -Users → Books (1:N)<br>
 -Books ↔ Categories (N:N) via pivot table<br>
 
-Thank you for checking out this project.<br>
-Feedback and suggestions are always welcome.<br>
-
 ## ⚙️ Installation Guide
 
 Follow these steps to run the project locally: <br>
@@ -69,6 +66,8 @@ Follow these steps to run the project locally: <br>
 8. Open in browser<br>
    [http://127.0.0.1:8000](http://127.0.0.1:8000 (or http://localhost:8000))<br>
 
+Thank you for checking out this project.<br>
+Feedback and suggestions are always welcome.<br>
 
 ## About Laravel
 
