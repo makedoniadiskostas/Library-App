@@ -37,37 +37,37 @@ Feedback and suggestions are always welcome.<br>
 
 ## ⚙️ Installation Guide
 
-Follow these steps to run the project locally:
+Follow these steps to run the project locally: <br>
 
-1. Clone the repository
-   git clone https://github.com/'your-username'/first-app-fixing.git
-   cd first-app-fixing
+1. Clone the repository<br>
+   git clone https://github.com/'your-username'/first-app-fixing.git<br>
+   cd first-app-fixing<br>
 
-2. Install dependencies
-   composer install
+2. Install dependencies<br>
+   composer install<br>
 
-3. Copy environment file
-   cp .env.example .env
+3. Copy environment file<br>
+   cp .env.example .env<br>
 
-4. Configure your database (.env file)
-   DB_DATABASE=your_db_name
-   DB_USERNAME=your_username
-   DB_PASSWORD=your_password
+4. Configure your database (.env file)<br>
+   DB_DATABASE=your_db_name<br>
+   DB_USERNAME=your_username<br>
+   DB_PASSWORD=your_password<br>
 
-5. Generate application key
-   php artisan key:generate
+5. Generate application key<br>
+   php artisan key:generate<br>
 
-6. Run migrations
-   php artisan migrate
+6. Run migrations<br>
+   php artisan migrate<br>
 
-   (Optional)
-   php artisan db:seed
+   (Optional)<br>
+   php artisan db:seed<br>
 
-7. Start the server
-   php artisan serve
+7. Start the server<br>
+   php artisan serve<br>
 
-8. Open in browser
-   [http://127.0.0.1:8000](http://127.0.0.1:8000 (or http://localhost:8000))
+8. Open in browser<br>
+   [http://127.0.0.1:8000](http://127.0.0.1:8000 (or http://localhost:8000))<br>
 
 
 ## About Laravel
