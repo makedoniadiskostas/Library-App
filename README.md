@@ -40,7 +40,7 @@ Feedback and suggestions are always welcome.<br>
 Follow these steps to run the project locally:
 
 1. Clone the repository
-   git clone https://github.com/<your-username>/first-app-fixing.git
+   git clone https://github.com/'your-username'/first-app-fixing.git
    cd first-app-fixing
 
 2. Install dependencies
@@ -67,7 +67,7 @@ Follow these steps to run the project locally:
    php artisan serve
 
 8. Open in browser
-   http://127.0.0.1:8000
+   [http://127.0.0.1:8000](http://127.0.0.1:8000 (or http://localhost:8000))
 
 
 ## About Laravel
